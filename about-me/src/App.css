@@ -14,14 +14,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #CFd0d8;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-link {
@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+/* App.css */
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 150px;
+}
+
+/* Add this CSS to your stylesheet */
+.nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Change the display property to flex */
+  justify-content: flex-end; /* Right-align the menu items */
+  background-color: #CFd0d8;
+}
+
+nav li {
+  margin: 0 10px; /* Add some margin between the menu items */
+  background-color: #CFd0d8;
+}
+
