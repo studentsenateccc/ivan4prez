@@ -1,10 +1,10 @@
 // import logo from './logo.svg';
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import SSCCClogo from './SSCCClogo.png';
 import IvanInDC from './IvanInDC.JPG';
 import './App.css';
-import Routes from './Routes';
+import { RoutesComponent } from './RoutesComponent';// Update the import statement in App.js
 import { BrowserRouter as Router } from 'react-router-dom'; // Import BrowserRouter
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
     <div className="App">
 
       {/* Your menu section goes here */}
-      {/* <nav className="nav ul">
+      <nav className="nav ul">
           <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About Me</a></li>
@@ -20,11 +20,11 @@ function App() {
             <li><a href="#contact">Platform</a></li>
             <li><a href="#contact">Involvement</a></li>
           </ul>
-        </nav> */}
+        </nav>
         {/* End of menu section */}
-      <Router>
-        <Routes />
-      </Router>
+      {/* <Router>
+        <RoutesComponent />
+      </Router> */}
 
       <header className="App-header">
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
