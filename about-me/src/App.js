@@ -12,7 +12,7 @@ function App() {
     <div className="App">
 
       {/* Your menu section goes here */}
-      {/* <nav className="nav ul">
+      <nav className="nav ul">
           <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About Me</a></li>
@@ -20,11 +20,11 @@ function App() {
             <li><a href="#contact">Platform</a></li>
             <li><a href="#contact">Involvement</a></li>
           </ul>
-        </nav> */}
+        </nav>
         {/* End of menu section */}
-      <Router>
+      {/* <Router>
         <Routes />
-      </Router>
+      </Router> */}
 
       <header className="App-header">
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
