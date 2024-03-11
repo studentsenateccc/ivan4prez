@@ -26,7 +26,8 @@
   justify-content: left;
   /* text-align: left; */
   font-size: calc(30px + 2vmin);
-  font-family: 'Times New Roman';
+  /* font-family: 'Times New Roman'; */
+  font-family: fantasy;
   color: black;
 }
 

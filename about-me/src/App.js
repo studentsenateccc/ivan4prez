@@ -1,10 +1,5 @@
-// import logo from './logo.svg';
 import React from 'react';
-// import { Link } from 'react-router-dom';
-import SSCCClogo from './SSCCClogo.png';
-import IvanInDC from './IvanInDC.JPG';
 import './App.css';
-// import { RoutesComponent } from './RoutesComponent';// Update the import statement in App.js
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'; // Import BrowserRouter
 import HomePage from './components/HomePage';
 import AboutMe from './components/AboutMePage';
@@ -26,7 +21,6 @@ function App() {
           </ul>
         </nav> */}
 
-
       <Router>
         <div className='content'>
           <Navbar />
@@ -40,15 +34,6 @@ function App() {
           </Switch>
         
       </Router>
-      {/* <header className="App-header">
-        {<img src={SSCCClogo} className="logo" alt="Logo" />}
-
-
-      </header> */}
-
-      {/* <body className="app-body"> 
-        {<img src={IvanInDC} className="home-image" alt="Home-image" />}
-      </body> */}
     </div>
   );
 }
