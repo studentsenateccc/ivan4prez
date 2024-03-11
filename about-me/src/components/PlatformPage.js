@@ -1,6 +1,7 @@
 import React from 'react';
 import IvanInDC from '../images/IvanInDC.JPG';
 import coverPage from '../images/cover-page.png';
+import Issues from '../images/Issues.png';
 
 export default function AboutMePage() {
   return (
@@ -11,7 +12,7 @@ export default function AboutMePage() {
             alt="Banner"
             className="w-full h-auto"
             height="500"
-            src={IvanInDC}
+            src={Issues}
             style={{
               aspectRatio: "1440/500",
               objectFit: "cover",
