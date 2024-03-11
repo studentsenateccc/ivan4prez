@@ -14,14 +14,20 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url('IvanInDC.JPG');
+  background-size: 55%;
+  background-position: center;
+  /* opacity: 0.3;  */
+  background-color: #CFd0d8;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: left;
+  /* text-align: left; */
+  font-size: calc(30px + 2vmin);
+  font-family: 'Times New Roman';
+  color: black;
 }
 
 .App-link {
@@ -35,4 +41,95 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* App.css */
+.logo {
+  position: absolute;
+  top: 10;
+  left: 0;
+  width: 150px;
+  height: 150px;
+}
+
+/* Add this CSS to your stylesheet */
+.nav ul {
+  list-style-type: none;
+  padding: 10px;
+  margin: 10px;
+  display: flex; /* Change the display property to flex */
+  justify-content: flex-end; /* Right-align the menu items */
+  background-color: #184759;
+  font-family: fantasy;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+}
+
+nav li {
+  margin: 0 17px; /* Add some margin between the menu items */
+  padding: 5px;
+  background-color: #CFd0d8;
+}
+
+.app-body {
+  background-color: #CFd0d8;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+  /* text-align: left; */
+  font-size: calc(10px + 2vmin);
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+
+.home-image {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 30;
+  left: 10;
+  /* z-index: -1; */
+}
+
+nav a {
+  color: rgb(246, 239, 239); /* Replace with your desired color */
+}
+
+.content {
+  list-style-type: none;
+  padding: 10px;
+  margin: 10px;
+  display: flex; /* Change the display property to flex */
+  justify-content: flex-end; /* Right-align the menu items */
+  background-color: #184759;
+  font-family: fantasy;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  justify-content: right;
+}
+
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+.navbar a:hover {
+  color: #a3dceb;
 }
