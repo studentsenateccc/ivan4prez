@@ -96,5 +96,40 @@ nav li {
 }
 
 nav a {
-  color: rgb(0, 0, 0); /* Replace with your desired color */
+  color: rgb(246, 239, 239); /* Replace with your desired color */
+}
+
+.content {
+  list-style-type: none;
+  padding: 10px;
+  margin: 10px;
+  display: flex; /* Change the display property to flex */
+  justify-content: flex-end; /* Right-align the menu items */
+  background-color: #184759;
+  font-family: fantasy;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  justify-content: right;
+}
+
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+.navbar a:hover {
+  color: #a3dceb;
 }
