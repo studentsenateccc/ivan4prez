@@ -3,17 +3,7 @@ import React from 'react';
 import IvanInDC from '../images/IvanInDC.JPG';
 import coverPage from '../images/cover-page.png';
 import welcome from '../images/welcome.png'
-
-// const AboutMePage = () => {
-//   return (
-//     <div>
-//       <h1>About Me</h1>
-//       <p>This is the About Me page content.</p>
-//     </div>
-//   );
-// }
-
-// export default AboutMePage;
+import aboutme from '../images/aboutme.png';
 
 
 // export default function AboutMePage() {
@@ -81,8 +71,8 @@ export default function AboutMePage() {
           <img
             alt="Banner"
             className="w-full h-auto"
-            height="500"
-            src={welcome}
+            height="520"
+            src={aboutme}
             style={{
               aspectRatio: "1440/500",
               objectFit: "cover",
@@ -91,8 +81,8 @@ export default function AboutMePage() {
           />
           <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50" />
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
-            <h1 className="text-white text-4xl font-bold mb-4">About Me</h1>
-            <p className="text-white text-lg">Discover my journey and aspirations</p>
+            <h1 className="text-white text-4xl font-bold mb-4">Meet Your Presidential Candidate Ivan</h1>
+            {/* <p className="text-white text-lg">Discover my journey and aspirations</p> */}
           </div>
 
 
