@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom';
 import SSCCClogo1 from './images/SSCCClogo1.jpeg';
 import './App.css';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+
 const Navbar = () => {
   return (
     <nav className='navbar'>
@@ -17,6 +20,14 @@ const Navbar = () => {
         {/* <Link to="/endorsements">Endorsements</Link> */}
         <Link to="/platform">Issues</Link>
         <Link to="/involvement">Involvement</Link>
+      </div>
+      <div className='links'>
+        <a href="https://www.instagram.com/ivan_hdz512">
+        <FontAwesomeIcon icon={faInstagram} />
+        </a>
+        <a href="https://www.linkedin.com/in/ivan512az">
+        <FontAwesomeIcon icon={faLinkedin} />
+        </a>
       </div>
     </nav>
   );
