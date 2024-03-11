@@ -1,15 +1,12 @@
-import SSCCClogo from '../SSCCClogo.png';
-import IvanInDC from '../IvanInDC.JPG';
+// import SSCCClogo from '../SSCCClogo.png';
+import IvanInDC from '../images/IvanInDC.JPG';
 import React from 'react';
 import '../App.css';
 
 const HomePage = () => {
         return ( 
                 <div className="App">
-                        <header className="App-header">
-                                <img src={SSCCClogo} className="logo" alt="Logo" />
-                                <p></p>
-                        </header>
+                        <header className="App-header" />
                         <body className="app-body">
                                 {<img src={IvanInDC} className="home-image" alt="Home-image" />}
                         </body>
