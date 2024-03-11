@@ -8,6 +8,7 @@ const HomePage = () => {
                 <div className="App">
                         <header className="App-header">
                                 <img src={SSCCClogo} className="logo" alt="Logo" />
+                                <p></p>
                         </header>
                         <body className="app-body">
                                 {<img src={IvanInDC} className="home-image" alt="Home-image" />}
