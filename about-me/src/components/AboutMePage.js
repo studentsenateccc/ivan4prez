@@ -92,14 +92,17 @@ export default function AboutMePage() {
           <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50" />
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
             <h1 className="text-white text-4xl font-bold mb-4">About Me</h1>
-            <p className="text-white text-lg">Discover my journey and aspirations</p>
+            <p className="text-white text-lg">Meet Ivan, a passionate student leader dedicated to making a difference on and off campus. As the current SSCCC Vice President, and 4CD Student Trustee, Ivan has demonstrated commitment to serving his fellow students and effectively advocating for their needs. With a strong track record of leadership and a deep understanding of the challenges facing community college students, Ivan is excited to bring his energy and vision to the role of SSCCC President.</p>
           </div>
 
 
           <div class="about-me-container">
             <div class="text-container">
               <h1>My Life</h1>
-              <p>Your text goes here...</p>
+              <p>Hey there, I'm Ivan Hernandez! I'm originally from Houston, Texas, but spent my formative years in Hidalgo, Mexico. At 14, I faced a big challenge when I was diagnosed with Leukemia. My family made the tough decision to move to California for my treatment, turning my life upside down overnight.</p>
+              <p>Adapting to a new country wasn't easy. I struggled with English and felt out of place in California's culture. But with support from loved ones, I found my footing at Diablo Valley College (DVC), where I enrolled after high school. Joining DVC's Student Government, I unexpectedly became the Inter-Club Council Chair, supporting over 60 student clubs during the pandemic.</p>
+              <p>Later, I served as Student Body President at Diablo Valley College and Region III Vice Chair, representing 14 community colleges. These experiences led me to the SSCCC, where I now proudly serve as Vice President and Contra Costa Community College Student Trustee.</p>
+              <p>Beyond advocacy, I've been involved with Diablo Valley Rotaract, working on community service projects locally and globally. Today, cancer-free for six years, I'm grateful for the journey and excited for what lies ahead!</p>
             </div>
             <div class="image-container">
               <img src={IvanInDC} alt="Ivan in DC" class="small-image" />
