@@ -2,6 +2,15 @@ import React from 'react';
 import IvanInDC from '../images/IvanInDC.JPG';
 import coverPage from '../images/cover-page.png';
 import Issues from '../images/Issues.png';
+import ASACC from '../images/ASACC.JPG';
+import asdvcInDC from '../images/asdvcInDC.JPG';
+import congressman from '../images/congressman.JPG';
+import correaOffice from '../images/correaOffice.jpg';
+import IvanAndPaul from '../images/IvanAndPaul.png';
+import LegVisits from '../images/LegVisits.jpg';
+import GA1 from '../images/GA1.JPG';
+import GA2 from '../images/GA2.png';
+
 import '../styles.css';
 
 
@@ -38,14 +47,14 @@ export default function PlatformPage() {
               <p>Ivan has fought for more direct student supports: housing grants, expanding campus food pantries, and free online textbooks. We must continue to increase support for students who are housing and/or food insecure, foster youth, student parents, veterans, Dreamers, and undocumented students. </p>
             </div>
             <div class="image-container">
-              <img src={IvanInDC} alt="Ivan in DC" class="small-image" />
+              <img src={congressman} alt="Ivan in DC" class="small-image" />
             </div>
           </div>
 
 
           <div class="about-me-container">
             <div class="image-container">
-              <img src={coverPage} alt="Ivan in DC" class="small-image" />
+              <img src={GA2} alt="Ivan in DC" class="small-image" />
             </div>
             <div class="text-container">
               <h1>EXPANDING CAREER PATHWAYS</h1>
@@ -60,16 +69,16 @@ export default function PlatformPage() {
               <p>The greatest challenge the Contra Costa Community College District is facing is declining enrollment. Our funding is largely tied to our enrollment, which has declined throughout the pandemic. To avoid this fiscal cliff and to better support as many students in our community, we need to expand our dual enrollment partnerships with our K-12 partners, continue building a robust recruitment program, and hire more councilors to work with students to keep them enrolled and earning their degree. </p>
             </div>
             <div class="image-container">
-              <img src={IvanInDC} alt="Ivan in DC" class="small-image" />
+              <img src={IvanAndPaul} alt="Ivan in DC" class="small-image" />
             </div>
           </div>
 
           <div class="about-me-container">
             <div class="image-container">
-              <img src={coverPage} alt="Ivan in DC" class="small-image" />
+              <img src={asdvcInDC} alt="Ivan in DC" class="small-image" />
             </div>
             <div class="text-container">
-              <h1>EXPANDING CAREER PATHWAYS</h1>
+              <h1>FIGHTING FOR FREE COMMUNITY COLLEGE</h1>
               <p>Education can change lives and put someone on the path to a good career. However, for many working families the doors to higher education remain completely out of reach.</p>
               <p>Ivan has championed Contra Costa Community College District’s First Time + Full Time = Free Tuition (FT3) program. He has also advocated for years in Sacramento and Washington D.C. for funding to expand the program.</p>
               <p>Many of our students do not qualify for First Time, Full Time — greater State and Federal support will allow us to expand the program.</p>
@@ -84,13 +93,13 @@ export default function PlatformPage() {
               <p>All government agencies have a role to play in solving our local housing crisis. Our colleges can build housing for our students and work with our city partners to build workforce housing.  </p>
             </div>
             <div class="image-container">
-              <img src={IvanInDC} alt="Ivan in DC" class="small-image" />
+              <img src={correaOffice} alt="Ivan in DC" class="small-image" />
             </div>
           </div>
 
           <div class="about-me-container">
             <div class="image-container">
-              <img src={coverPage} alt="Ivan in DC" class="small-image" />
+              <img src={GA1} alt="Ivan in DC" class="small-image" />
             </div>
             <div class="text-container">
               <h1>SCHOOL SAFETY</h1>
@@ -106,14 +115,14 @@ export default function PlatformPage() {
               <p>In recent years, enrollment in our community colleges has declined. I will work hard to build stronger ties with our K-12 partners so that we can collaborate to put more students on the right track and help even more high school students take advantage of all that our system has to offer. </p>
             </div>
             <div class="image-container">
-              <img src={IvanInDC} alt="Ivan in DC" class="small-image" />
+              <img src={LegVisits} alt="Ivan in DC" class="small-image" />
             </div>
           </div>
 
 
           <div class="about-me-container">
             <div class="image-container">
-              <img src={coverPage} alt="Ivan in DC" class="small-image" />
+              <img src={ASACC} alt="Ivan in DC" class="small-image" />
             </div>
             <div class="text-container">
               <h1>SMARTER BUILDING</h1>
