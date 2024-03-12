@@ -6,6 +6,7 @@ import AboutMe from './components/AboutMePage';
 import Platform from './components/PlatformPage';
 import Involvement from './components/InvolvementPage';
 import Navbar from './Navbar';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -32,6 +33,8 @@ function App() {
           </Switch>
         
       </Router>
+
+      <Footer />
     </div>
   );
 }

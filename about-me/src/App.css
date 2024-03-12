@@ -178,3 +178,12 @@ nav a {
   margin-left: 250px;
   margin-right: 250px;
 }
+
+
+/* Footer.css */
+.footer {
+  background-color: #184759;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
