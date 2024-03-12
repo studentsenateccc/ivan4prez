@@ -16,10 +16,11 @@
 .App-header {
   /* background-image: url('IvanInDC.JPG'); */
   background-image: url('images/welcome.png');
-  background-size: 100%;
+  background-size: cover;
   background-position: center;
   background-color: #CFd0d8;
-  min-height: 100vh;
+  height: 700px;
+  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -29,6 +30,20 @@
   /* font-family: 'Times New Roman'; */
   font-family: fantasy;
   color: black;
+
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+
+
+  @media (max-width: 768px) {
+    height: 200px;
+    background-position: top;
+
+    @media (max-width: 768px) and (orientation: landscape) {
+      background-size: cover; /* Adjust the background size for landscape orientation */
+      background-position: center; /* Center the background image in landscape orientation */
+      height: 400px;
+    }
+  }
 }
 
 .App-link {
@@ -177,6 +192,11 @@ nav a {
   margin-bottom: 20px;
   margin-left: 250px;
   margin-right: 250px;
+
+  @media (max-width: 768px) {
+    margin-left: 5%; /* Adjust the left margin for smaller screens */
+    margin-right: 5%; /* Adjust the right margin for smaller screens */
+  }
 }
 
 
