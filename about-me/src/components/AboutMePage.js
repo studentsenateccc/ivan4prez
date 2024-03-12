@@ -91,7 +91,7 @@ export default function AboutMePage() {
           />
           <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50" />
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
-            <h1 className="text-white text-4xl font-bold mb-4">About Me</h1>
+            <h1 className="text-white text-4xl font-bold mb-4">Meet your presidential Candidate</h1>
             <p className="text-white text-lg">Meet Ivan, a passionate student leader dedicated to making a difference on and off campus. As the current SSCCC Vice President, and 4CD Student Trustee, Ivan has demonstrated commitment to serving his fellow students and effectively advocating for their needs. With a strong track record of leadership and a deep understanding of the challenges facing community college students, Ivan is excited to bring his energy and vision to the role of SSCCC President.</p>
           </div>
 
