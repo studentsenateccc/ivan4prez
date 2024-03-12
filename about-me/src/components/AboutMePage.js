@@ -4,6 +4,8 @@ import IvanInDC from '../images/IvanInDC.JPG';
 import coverPage from '../images/cover-page.png';
 import welcome from '../images/welcome.png'
 import aboutme from '../images/aboutme.png';
+import ivanElection from '../images/ivanElection.JPG';
+import ivanLife from '../images/ivanLife.JPG';
 
 
 // export default function AboutMePage() {
@@ -96,14 +98,14 @@ export default function AboutMePage() {
               <p>Beyond advocacy, I've been involved with Diablo Valley Rotaract, working on community service projects locally and globally. Today, cancer-free for six years, I'm grateful for the journey and excited for what lies ahead!</p>
             </div>
             <div class="image-container">
-              <img src={IvanInDC} alt="Ivan in DC" class="small-image" />
+              <img src={ivanLife} alt="Ivan in DC" class="small-image" />
             </div>
           </div>
 
 
           <div class="about-me-container">
             <div class="image-container">
-              <img src={coverPage} alt="Ivan in DC" class="small-image" />
+              <img src={ivanElection} alt="Ivan in DC" class="small-image" />
             </div>
             <div class="text-container">
               <h1>Professional Experience</h1>
@@ -118,7 +120,7 @@ export default function AboutMePage() {
           <div class="about-me-container">
             <div class="text-container">
               <h1>Moving Forward</h1>
-              <p>As an organization, we are eagerly looking forward to several key aspects that are integral to our growth and success. First and foremost, we are committed to fostering professional growth among our members. We aim to provide opportunities for skill development, learning, and career advancement to ensure that each individual within our organization can reach their fullest potential.</p>
+              <p>In the SSCCC, we are eagerly looking forward to several key aspects that are integral to our growth and success. First and foremost, we are committed to fostering professional growth among our members. We aim to provide opportunities for skill development, learning, and career advancement to ensure that each individual within our organization can reach their fullest potential.</p>
               <p>In addition to professional growth, representation is another area of focus for us. We are dedicated to promoting diversity, equity, and inclusion within our organization, ensuring that all voices are heard and valued. By embracing diverse perspectives and experiences, we believe we can better serve our community and achieve our shared goals.</p>
               <p>Finally, we are excited about increasing engagement both within our organization and with external stakeholders. We understand the importance of active participation and collaboration in driving meaningful change. Through enhanced communication, collaboration, and involvement, we aim to build stronger connections and partnerships that will propel us forward toward our vision and mission.</p>
               <p>Overall, we are looking forward to a future filled with opportunities for professional growth, diverse representation, and meaningful engagement. Together, we are confident that we can make a positive impact and achieve our collective aspirations.</p>
