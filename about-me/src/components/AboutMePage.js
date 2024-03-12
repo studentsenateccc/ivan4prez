@@ -6,6 +6,10 @@ import aboutme from '../images/aboutme.png';
 import ivanElection from '../images/ivanElection.JPG';
 import ivanLife from '../images/ivanLife.JPG';
 
+import '../styles.css';
+
+
+
 export default function AboutMePage() {
   return (
     <>
