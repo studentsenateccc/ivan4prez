@@ -2,13 +2,13 @@ import React from 'react';
 import IvanInDC from '../images/IvanInDC.JPG';
 import coverPage from '../images/cover-page.png';
 import aboutme from '../images/aboutme.png';
-import involvementPage from '../images/involvementCover.png';
 import dvrPic from '../images/dvrPic.JPG';
 import asdvcPic from '../images/asdvcPic.jpg';
 import iccPic from '../images/iccPic.JPG';
 import stPic from '../images/studentTrusteePic.jpg';
 import vpPic from '../images/vpPic.JPG';
 import viceChairPic from '../images/viceChairPic.jpg';
+import involvementPage from '../images/InvolvementCropped.png';
 
 
 export default function InvolvementPage() {
@@ -22,8 +22,10 @@ export default function InvolvementPage() {
             height="520"
             src={involvementPage}
             style={{
-              aspectRatio: "1440/500",
               objectFit: "cover",
+              width: "100%", // Set the width to 100%
+              height: "auto", // Set the height to auto for proportional scaling
+              maxWidth: "100%" // Set the max-width for responsiveness
             }}
             width="1440"
           />
