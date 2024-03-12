@@ -1,6 +1,4 @@
 import React from 'react';
-import IvanInDC from '../images/IvanInDC.JPG';
-import coverPage from '../images/cover-page.png';
 import Issues from '../images/Issues.png';
 import ASACC from '../images/ASACC.JPG';
 import asdvcInDC from '../images/asdvcInDC.JPG';
@@ -42,7 +40,7 @@ export default function PlatformPage() {
           <div class="about-me-container">
             <div class="text-container">
               <h1>SUPPORTING STUDENTS</h1>
-              <p>Community colleges serve some of our most vulnerable students. Even before the pandemic, over 50% of Contra Costa’s community college students reported being housing insecure. </p>
+              <p>Community colleges serve some of our most vulnerable students. Even before the pandemic, over 50% of CA community college students reported being housing insecure. </p>
               <p>Students cannot be successful in the classroom if they are worried about where their next meal is coming from or if they have safe place to sleep that night. </p>
               <p>Ivan has fought for more direct student supports: housing grants, expanding campus food pantries, and free online textbooks. We must continue to increase support for students who are housing and/or food insecure, foster youth, student parents, veterans, Dreamers, and undocumented students. </p>
             </div>
@@ -66,7 +64,7 @@ export default function PlatformPage() {
           <div class="about-me-container">
             <div class="text-container">
               <h1>INCREASING ENROLLMENT</h1>
-              <p>The greatest challenge the Contra Costa Community College District is facing is declining enrollment. Our funding is largely tied to our enrollment, which has declined throughout the pandemic. To avoid this fiscal cliff and to better support as many students in our community, we need to expand our dual enrollment partnerships with our K-12 partners, continue building a robust recruitment program, and hire more councilors to work with students to keep them enrolled and earning their degree. </p>
+              <p>The greatest challenge that CA community colleges are facing is declining enrollment. Our funding is largely tied to our enrollment, which has declined throughout the pandemic. To avoid this fiscal cliff and to better support as many students in our community, we need to expand our dual enrollment partnerships with our K-12 partners, continue building a robust recruitment program, and hire more councilors to work with students to keep them enrolled and earning their degree. </p>
             </div>
             <div class="image-container">
               <img src={IvanAndPaul} alt="Ivan in DC" class="small-image" />
@@ -80,8 +78,9 @@ export default function PlatformPage() {
             <div class="text-container">
               <h1>FIGHTING FOR FREE COMMUNITY COLLEGE</h1>
               <p>Education can change lives and put someone on the path to a good career. However, for many working families the doors to higher education remain completely out of reach.</p>
-              <p>Ivan has championed Contra Costa Community College District’s First Time + Full Time = Free Tuition (FT3) program. He has also advocated for years in Sacramento and Washington D.C. for funding to expand the program.</p>
-              <p>Many of our students do not qualify for First Time, Full Time — greater State and Federal support will allow us to expand the program.</p>
+              {/* <p>Ivan has championed Contra Costa Community College District’s First Time + Full Time = Free Tuition (FT3) program. He has also advocated for years in Sacramento and Washington D.C. for funding to expand the program.</p> */}
+              <p>Ivan has stood up for different programs that financially support our students. He has also advocated for years in Sacramento and Washington D.C. for funding to expand these programs.</p>
+              <p>Nonetheless, many of our students do not qualify for them — greater State and Federal support will allow us to expand these support programs and help more students.</p>
             </div>
           </div>
 
@@ -89,8 +88,8 @@ export default function PlatformPage() {
           <div class="about-me-container">
             <div class="text-container">
               <h1>CHAMPIONING WORKFORCE & STUDENT HOUSING</h1>
-              <p>Our students, faculty and staff are struggling because of the Bay Area housing crisis. Over 50% of students report being housing insecure and our district has struggled to hire and retain great staff because of the cost of housing. </p>
-              <p>All government agencies have a role to play in solving our local housing crisis. Our colleges can build housing for our students and work with our city partners to build workforce housing.  </p>
+              <p>Our students, faculty and staff are struggling because of the existent housing crisis. Over 50% of students report being housing insecure and our colleges have struggled to hire and retain great staff because of the cost of housing. </p>
+              <p>All government agencies have a role to play in solving our housing crisis. Our colleges can build housing for our students and work with our city partners to build workforce housing.  </p>
             </div>
             <div class="image-container">
               <img src={correaOffice} alt="Ivan in DC" class="small-image" />
@@ -103,15 +102,15 @@ export default function PlatformPage() {
             </div>
             <div class="text-container">
               <h1>SCHOOL SAFETY</h1>
-              <p>There's no room for error when it comes to the safety of our students, faculty, staff and community. With active shooter and other threats becoming an all-to-regular occurrence, we must stay vigilant and continue to prepare for every possibility. I will prioritize school security and partner with faculty and our college district law enforcement to develop preventive measures and effective responses.</p>
-              <p>And, in this #MeToo era, students should also be made aware of the district's sexual harassment policies, safety procedures, and reporting options, on day one. Faculty and staff should be trained on their reporting obligations and be provided clear guidelines on acceptable behavior. Implementing these policies will be a top priority.</p>
+              <p>There's no room for error when it comes to the safety of our students, faculty, staff and community. With active shooter and other threats becoming an all-to-regular occurrence, we must stay vigilant and continue to prepare for every possibility. I will prioritize school security and partner with faculty and college district law enforcement to develop preventive measures and effective responses.</p>
+              <p>And, in this #MeToo era, students should also be made aware of their district's sexual harassment policies, safety procedures, and reporting options, on day one. Faculty and staff should be trained on their reporting obligations and be provided clear guidelines on acceptable behavior. Implementing these policies will be a top priority.</p>
             </div>
           </div>
 
           <div class="about-me-container">
             <div class="text-container">
               <h1>K-12 PARTNERSHIPS</h1>
-              <p>The Community College District and our K-12 schools are natural partners in education. These days, high school students start taking courses at our community colleges as early as their freshman year. This option gives students a competitive edge when applying for colleges or an opportunity to expand their education beyond what's offered in the standard curriculum. </p>
+              <p>Our Community College Districts and our K-12 schools are natural partners in education. These days, high school students start taking courses at our community colleges as early as their freshman year. This option gives students a competitive edge when applying for colleges or an opportunity to expand their education beyond what's offered in the standard curriculum. </p>
               <p>In recent years, enrollment in our community colleges has declined. I will work hard to build stronger ties with our K-12 partners so that we can collaborate to put more students on the right track and help even more high school students take advantage of all that our system has to offer. </p>
             </div>
             <div class="image-container">
