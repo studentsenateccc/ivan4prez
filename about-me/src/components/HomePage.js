@@ -1,6 +1,7 @@
 import IvanInDC from '../images/IvanInDC.JPG';
 import coverPage from '../images/cover-page.png';
 import ivanVP from '../images/ivanVP.jpg';
+import welcome2 from '../images/welcome2.png';
 import React from 'react';
 import '../App.css';
 
@@ -30,18 +31,26 @@ const HomePage = () => {
               <img src={ivanVP} alt="Ivan in DC" class="small-image" />
             </div>
             <div class="text-container">
-              <h1>Message from Ivan</h1>
+              <h1>Message from Ivan:</h1>
               {/* <p>Helping others has always been part of Ivan's identity. For the past two years, he has served as President at Diablo Valley Rotaract, a non-profit 501c (4) organization that brings young leaders together to develop solutions to the most pressing challenges facing domestic and international communities. Branched from Rotary International and founded during the global pandemic, he was one of the founding members who stood up to create change. In 2020, Honduran families faced starvation due to Covid-19. Ivan oversaw and led the completion of a fundraiser using social media as the main form of communication. He reached out to over 70 other clubs and non-profits, raising $5,000 to aid 50 families in Honduras for three consecutive months with essential goods. This experience was life-changing, allowing him to provide basic resources to families in need. In 2021, he initiated "The Period Project," focusing on Menstrual Product Accessibility for Low-Income Women. Alongside a team of five, Ivan fundraised $4,000 to purchase women's hygiene products and packed 400 bags for homeless women in Oakland, CA. These projects taught him the importance of accessibility and the impact of collective action in making a difference. Ivan is proud to have advocated for what is right since joining Rotaract.</p> */}
-              <p>Dear SSCCC Fam,</p>
-              <p>It is with great pleasure and anticipation that I extend a warm welcome to each and every one of you. As a presidential candidate, I am humbled by the opportunity to address such a distinguished gathering of individuals who share a common vision for our community's future.</p>
-              <p>Your presence here today signifies your commitment to shaping positive change and driving progress in our society. Together, we stand at the threshold of a new era, filled with boundless opportunities and challenges that require bold and innovative solutions.</p>
+              <p>Dear SSCCC Family,</p>
+              <p>It is with great pleasure and anticipation that I extend a warm welcome to each and every one of you. As your presidential candidate, I am humbled by the opportunity to address such an incredible group of individuals who share a common vision for our community's future.</p>
+              <p>Your presence and participation signifies your commitment to shaping positive change and driving progress in our society. Together, we stand at the threshold of a new era, filled with boundless opportunities and challenges that require bold and innovative solutions.</p>
               <p>I am deeply honored to have the opportunity to share my vision, values, and plans for our collective journey ahead. But more importantly, I am eager to listen, learn, and collaborate with each of you to build a brighter, more inclusive future for all.</p>
               <p>As we embark on this journey together, let us unite our strengths, passions, and aspirations to create a community that thrives on diversity, equity, and compassion. Your engagement, support, and feedback are invaluable to me, and I am committed to being a leader who listens, serves, and acts with integrity.</p>
               <p>Once again, welcome, and thank you for joining me on this inspiring journey towards a better tomorrow.</p>
               <p>With warm regards,</p>
               <p>Ivan Hernandez, Presidential Candidate </p>
             </div>
+
                 </div> 
+
+                <div >
+                <div >
+              <img src={welcome2} alt="Ivan in DC" class="small-image" />
+            </div>
+            
+            </div>
         </div>
 
         );
