@@ -1,10 +1,10 @@
+/* styles.css */
+
 .container {
         display: flex;
         flex-direction: column; /* For phone view */
-}
       
 @media (min-width: 768px) {
-    .container {
         flex-direction: row; /* For laptop view */
-    }
+}
 }

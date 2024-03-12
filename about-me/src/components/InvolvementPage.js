@@ -2,13 +2,11 @@ import React from 'react';
 import IvanInDC from '../images/IvanInDC.JPG';
 import coverPage from '../images/cover-page.png';
 import aboutme from '../images/aboutme.png';
-import '../styles.css';
 
 
 export default function InvolvementPage() {
   return (
     <>
-    <div className='container'>
       <div className="bg-gray-800">
         <div className="relative">
           <img
@@ -95,7 +93,6 @@ export default function InvolvementPage() {
 
 
         </div>
-      </div>
       </div>
     </>
   )

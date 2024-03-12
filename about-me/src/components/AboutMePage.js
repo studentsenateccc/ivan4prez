@@ -4,14 +4,9 @@ import coverPage from '../images/cover-page.png';
 import welcome from '../images/welcome.png'
 import aboutme from '../images/aboutme.png';
 
-import '../styles.css';
-
-
-
 export default function AboutMePage() {
   return (
     <>
-    <div className='container'>
       <div className="bg-gray-800">
         <div className="relative">
           <img
@@ -77,7 +72,6 @@ export default function AboutMePage() {
 
 
         </div>
-      </div>
       </div>
     </>
   )
