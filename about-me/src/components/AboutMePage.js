@@ -31,19 +31,20 @@ export default function AboutMePage() {
 
             <h1 className="text-white text-4xl font-bold mb-4">Meet your presidential Candidate</h1>
             <div className='margins'>
-              <p className="text-white text-lg">Meet Ivan, a passionate student leader dedicated to making a difference on and off campus. As the current SSCCC Vice President, and 4CD Student Trustee, Ivan has demonstrated commitment to serving his fellow students and effectively advocating for their needs. With a strong track record of leadership and a deep understanding of the challenges facing community college students, Ivan is excited to bring his energy and vision to the role of SSCCC President.</p>
+              <p className="text-white text-lg">Ivan Hernandez serves as Vice President for the 2023-2024 academic term. As a student, Ivan is pursuing a degree in Computer Science with an interest in Software Engineering, Product Management, and Consulting. Ivan likes to spend time outdoors, running, hiking, and swimming. He also loves to meet new people and hang out with his friends as much as possible. Ivan enjoys watching movies and series, listening to music, and singing karaoke.</p>
+              <p>If elected as President, Ivan hopes to lead the organization towards a very successful year full of learning, growth, and personal development. Some of his goals are to collaborate with system partners and counterpart organizations such as UCSA, CSSA, and other organizations. Last but not least, Ivan wants to give back to the community that has given him so much.</p>
             </div>
           </div>
 
 
           <div class="about-me-container">
             <div class="text-container">
-              <h1>My Life</h1>
+              <h1>My Story</h1>
 
-              <p>Hey there, I'm Ivan Hernandez! I'm originally from Houston, Texas, but spent my formative years in Hidalgo, Mexico. At 14, I faced a big challenge when I was diagnosed with Leukemia. My family made the tough decision to move to California for my treatment, turning my life upside down overnight.</p>
-              <p>Adapting to a new country wasn't easy. I struggled with English and felt out of place in California's culture. But with support from loved ones, I found my footing at Diablo Valley College (DVC), where I enrolled after high school. Joining DVC's Student Government, I unexpectedly became the Inter-Club Council Chair, supporting over 60 student clubs during the pandemic.</p>
-              <p>Later, I served as Student Body President at Diablo Valley College and Region III Vice Chair, representing 14 community colleges. These experiences led me to the SSCCC, where I now proudly serve as Vice President and Contra Costa Community College Student Trustee.</p>
-              <p>Beyond advocacy, I've been involved with Diablo Valley Rotaract, working on community service projects locally and globally. Today, cancer-free for six years, I'm grateful for the journey and excited for what lies ahead!</p>
+              <p>Hey everyone, My name is Ivan Hernandez! I'm originally from Houston, Texas, however, I spent most of my life in Hidalgo, Mexico. At age 14, I faced a big challenge when I was diagnosed with Leukemia. With this health issue in mind, my family made the tough decision to send me off to California to pursue treatment, although that meant, I left behind my parents, siblings, and other loved members.</p>
+              <p>Adapting to a new country wasn't easy. I struggled with English and felt out of place in this new culture. But with support from loved ones, I found my place at Diablo Valley College (DVC) as a dual-enrolled student, where after graduating high school, I enrolled full-time. When I enrolled at DVC, I joined their Student Government, where I got elected as the Inter-Club Council Chair, supporting over 60 student clubs during the pandemic.</p>
+              <p>The next year, I got elected to serve as the Student Body President at Diablo Valley College, as well as, Region III Vice Chair, representing 14 community colleges across the region. These experiences led me to get involved in the SSCCC, where I now proudly serve as Vice President. Moreover, I got elected as the Contra Costa Community College Student Trustee.</p>
+              <p>Beyond advocacy, I've been involved with Diablo Valley Rotaract, a non-profit community service organization devoted to support our community by working on community service projects locally and globally. Today, I have marked six years being cancer-free, I'm grateful for the journey and excited for what lies ahead!</p>
             </div>
             <div class="image-container">
               <img src={ivanLife} alt="Ivan in DC" class="small-image" />
@@ -58,7 +59,7 @@ export default function AboutMePage() {
             <div class="text-container">
               <h1>Professional Experience</h1>
               <p>Being involved both in and outside of school has played a pivotal role in shaping my personal and professional growth. Through extracurricular activities, internships, and volunteer experiences, I have been able to develop essential skills, gain valuable knowledge, and cultivate meaningful relationships.</p>
-              <p>Participating in extracurricular activities such as clubs, organizations, and sports teams has allowed me to hone my leadership abilities, teamwork skills, and time management techniques. These experiences have taught me how to effectively collaborate with others, solve problems creatively, and adapt to diverse situations.</p>
+              <p>Participating in extracurricular activities such as clubs, organizations, and sports teams has allowed me to expand my leadership abilities, teamwork skills, and time management techniques. These experiences have taught me how to effectively collaborate with others, solve problems creatively, and adapt to diverse situations.</p>
               <p>Additionally, internships and volunteer opportunities have provided me with real-world experience and exposure to different industries and professions. These experiences have not only helped me discover my interests and passions but have also equipped me with practical skills and knowledge that are applicable in various professional settings.</p>
               <p>Moreover, being actively involved both inside and outside of school has enabled me to expand my network, meet new people, and build connections with professionals in my field of interest. These connections have opened doors to new opportunities, mentorship, and career guidance, ultimately contributing to my overall growth and development.</p>
               <p>In summary, being involved in extracurricular activities, internships, and volunteer work has been instrumental in shaping the person I am today. These experiences have provided me with valuable skills, knowledge, and connections that have prepared me for success in my future endeavors.</p>
