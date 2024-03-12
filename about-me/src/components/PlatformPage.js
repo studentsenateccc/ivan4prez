@@ -1,5 +1,5 @@
 import React from 'react';
-import Issues from '../images/Issues.png';
+import Issues1 from '../images/IssuesCropped.png';
 import ASACC from '../images/ASACC.JPG';
 import asdvcInDC from '../images/asdvcInDC.JPG';
 import congressman from '../images/congressman.JPG';
@@ -23,10 +23,12 @@ export default function PlatformPage() {
             alt="Banner"
             className="w-full h-auto"
             height="500"
-            src={Issues}
+            src={Issues1}
             style={{
-              aspectRatio: "1440/500",
               objectFit: "cover",
+              width: "100%", // Set the width to 100%
+              height: "auto", // Set the height to auto for proportional scaling
+              maxWidth: "100%" // Set the max-width for responsiveness
             }}
             width="1440"
           />

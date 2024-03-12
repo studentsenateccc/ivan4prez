@@ -2,7 +2,7 @@ import React from 'react';
 import IvanInDC from '../images/IvanInDC.JPG';
 import coverPage from '../images/cover-page.png';
 import welcome from '../images/welcome.png'
-import aboutme from '../images/aboutme.png';
+import aboutme from '../images/AboutMeCropped.png';
 import ivanElection from '../images/ivanElection.JPG';
 import ivanLife from '../images/ivanLife.JPG';
 
@@ -21,8 +21,10 @@ export default function AboutMePage() {
             height="520"
             src={aboutme}
             style={{
-              aspectRatio: "1440/500",
               objectFit: "cover",
+              width: "100%", // Set the width to 100%
+              height: "auto", // Set the height to auto for proportional scaling
+              maxWidth: "100%" // Set the max-width for responsiveness
             }}
             width="1440"
           />
