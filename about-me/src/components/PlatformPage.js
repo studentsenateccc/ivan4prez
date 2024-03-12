@@ -5,9 +5,10 @@ import Issues from '../images/Issues.png';
 import '../styles.css';
 
 
-export default function AboutMePage() {
+export default function PlatformPage() {
   return (
     <>
+    <div class="container">
     <div class="image-container">
       <div className="bg-gray-800">
         <div className="relative">
@@ -123,6 +124,7 @@ export default function AboutMePage() {
 
 
         </div>
+      </div>
       </div>
       </div>
     </>

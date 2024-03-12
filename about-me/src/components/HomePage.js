@@ -3,11 +3,9 @@ import coverPage from '../images/cover-page.png';
 import ivanVP from '../images/ivanVP.jpg';
 import React from 'react';
 import '../App.css';
-import '../styles.css';
 
 const HomePage = () => {
         return ( 
-          <div className='container'>
                 <div className="App">
                         <header className="App-header" >
                         </header>
@@ -43,7 +41,6 @@ const HomePage = () => {
             </div>
                 </div> 
         </div>
-      </div>
 
         );
 }

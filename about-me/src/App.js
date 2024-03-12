@@ -3,7 +3,6 @@ import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'; // Import BrowserRouter
 import HomePage from './components/HomePage';
 import AboutMe from './components/AboutMePage';
-import Endorsements from './components/EndorsementsPage';
 import Platform from './components/PlatformPage';
 import Involvement from './components/InvolvementPage';
 import Navbar from './Navbar';
@@ -28,7 +27,6 @@ function App() {
           <Switch>
             <Route exact path="/" component={HomePage} />
             <Route path="/about-me" component={AboutMe} />
-            <Route path="/endorsements" component={Endorsements} />
             <Route path="/platform" component={Platform} />
             <Route path="/involvement" component={Involvement} />
           </Switch>
