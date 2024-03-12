@@ -2,11 +2,13 @@ import React from 'react';
 import IvanInDC from '../images/IvanInDC.JPG';
 import coverPage from '../images/cover-page.png';
 import Issues from '../images/Issues.png';
+import '../styles.css';
 
 
 export default function AboutMePage() {
   return (
     <>
+    <div class="image-container">
       <div className="bg-gray-800">
         <div className="relative">
           <img
@@ -121,6 +123,7 @@ export default function AboutMePage() {
 
 
         </div>
+      </div>
       </div>
     </>
   )
