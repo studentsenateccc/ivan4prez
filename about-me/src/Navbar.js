@@ -22,10 +22,10 @@ const Navbar = () => {
         <Link to="/involvement">Involvement</Link>
       </div>
       <div className='links'>
-        <a href="https://www.instagram.com/ivan_hdz512">
+        <a href="https://www.instagram.com/ivan_hdz512" target="_blank">
         <FontAwesomeIcon icon={faInstagram} />
         </a>
-        <a href="https://www.linkedin.com/in/ivan512az">
+        <a href="https://www.linkedin.com/in/ivan512az" target="_blank">
         <FontAwesomeIcon icon={faLinkedin} />
         </a>
       </div>
