@@ -9,6 +9,7 @@ import stPic from '../images/studentTrusteePic.jpg';
 import vpPic from '../images/vpPic.JPG';
 import viceChairPic from '../images/viceChairPic.jpg';
 import involvementPage from '../images/InvolvementCropped.png';
+import YouTubeVideo from './YoutubeVideo';
 
 
 export default function InvolvementPage() {
@@ -109,6 +110,34 @@ export default function InvolvementPage() {
           </div>
 
 
+          {/* <div class="about-me-container">
+            <div class="text-container">
+              <h1>SSCCC Chapter 3</h1>
+              <p>Chapter 3: </p>
+            </div>
+            <div class="image-container">
+              <YouTubeVideo videoUrl="https://www.youtube.com/embed/3IcwuQf5NTc?si=MxAAEieJONA6luoh"/>
+            </div>
+          </div> */}
+
+
+
+
+          <h1>SSCCC Chapters</h1>
+          <h2>Learn more about the SSCCC Chapters 3 and 4 completed this year under Ivan's leadership</h2>
+          {/* <p>Learn more about the townhalls</p> */}
+          <div class="about-me-container">
+            <div class="image-container">
+              <h3>SSCCC Chapter 3:</h3>
+              <h3>American Indian/Alaska Native (Native American) & Indigenous Students</h3>
+              <YouTubeVideo videoUrl="https://www.youtube.com/embed/3IcwuQf5NTc?si=MxAAEieJONA6luoh"/>
+            </div>
+            <div class="image-container">
+              <h3>SSCCC Chapter 4:</h3>
+              <h3>Undocumented Students</h3>
+              <YouTubeVideo videoUrl="https://www.youtube.com/embed/LgToJriQRZo?si=YicYZTGvaOcJac9n"/>
+            </div>
+          </div>
         </div>
       </div>
     </>
