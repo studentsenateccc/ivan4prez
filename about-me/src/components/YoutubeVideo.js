@@ -1,8 +1,9 @@
 import React from 'react';
+import '../App.css';
 
 const YouTubeVideo = ({ videoUrl }) => {
     return (
-        <div>
+        <div className='video-container'>
             <iframe 
                 width="560" 
                 height="315" 
