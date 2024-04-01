@@ -226,3 +226,33 @@ nav a {
     margin: 8px 0;
   }
 }
+
+
+.video-container {
+    position: relative;
+    width: 100%;
+    max-width: 560px;
+    margin: 0 auto;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 315px;
+}
+
+@media only screen and (max-width: 600px) {
+    .video-container {
+        padding-bottom: 50%; /* 16:9 aspect ratio */
+        padding-top: 30px;
+        height: 0;
+        overflow: hidden;
+    }
+
+    .video-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
